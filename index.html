@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>  portfolio</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+            rel="stylesheet">
+            <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+        body{
+            background-color: rgb(0, 0, 33);
+            color:white;
+            font-family: 'poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 51);
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration:none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(153,153,226);
+            font-size: 1.02rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+
+        .left{
+            font-size: 2rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+        .firstsection> div{
+            width:30%;
+        }
+        .leftsection{
+            font-size: 3rem;
+            
+        }
+        .leftsection .buttons{
+            padding: 23px;
+
+        }
+            .leftsection .button {
+            padding: 12px;
+            background:rgb(59, 26, 59) ;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            }
+        
+        .rightsection img{
+           width: 80%;
+        }
+        .skills-heading{
+            padding: 2rem;
+            font-size: 2rem;
+        }
+
+        .skills-names{
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+         }
+
+        .purple{
+            color:blueviolet;
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color:blueviolet;
+        }
+
+        
+        footer{
+            background-color:rgb(50, 20, 50);
+            
+        }
+        .footer{
+            display: flex;
+            padding:23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div{
+            width: 223px;
+        }
+            
+            footer .footer-rights {
+            text-align:center;
+            color: gray;
+            padding: 12px 0;
+        }
+        </style>
+    </head>
+     <body>
+       <header>
+         <nav>
+            <div class="left">Geeta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html"> Services</a></li>
+                    <li><a href="project.html">projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+         </nav>
+       </header>
+       <main>
+         <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Geetanjali</span>
+                <div>and I am a Web Developer</div>
+                <span id="element"></span>
+            <div class="buttons">
+             <button class="button">Download Resume</button>
+             <button class="button">Visit Github</button>
+            </div>
+            </div>
+            <div class="rightsection">
+                <img src="pg.png"alt="">
+            </div>
+         </section>
+         <hr>
+         <section class="secondsection">
+            <div class="skills">
+            <div class="skills-heading">
+               what i learned so far...,
+            </div>
+            <div class="skills-names">
+            
+                
+                <div class="skills name containers">
+                    <img src="html.png" height="100px" width="150px" >
+                  <h3>HTML</h3>
+                </div>
+                <div class="skills name containers">
+                    <img src="CSS.jpg" height="100px" width="150px">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skills name containers">
+                    <img src="js.png" height="100px" width="150px">
+                    <h3>Javascript</h3>
+                </div>
+            </div>
+            
+            
+      </section>
+       </main>
+       <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Geeta's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>service</li>
+                    <li>contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>service</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>service</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.geetasportfolio.com | All rights reserved
+        </div>
+       </footer>
+       <script>
+        var typed = new Typed('#element',  {
+          strings: ['Web Developer','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     </body>
+</html>
